@@ -30,7 +30,6 @@ function App() {
         <button onClick={() => addCash(Number(prompt()))}>Add cash</button>
         <button onClick={() => getCash(Number(prompt()))}>Get cash</button>
         <button onClick={() => addClient(prompt())}>Add client</button>
-        <button onClick={() => getCash(Number(prompt()))}>Remove client</button>
         <p>{cash}</p>
         {customers.length !== 0 ?
           <div>
